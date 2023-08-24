@@ -286,6 +286,8 @@ WHERE pct > 5;
 ![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/2e6f0516-0a12-4512-a71c-078d29173c34)
 
 View my portfolio
+
+
 Connect on LinkedIn Here
 
 
