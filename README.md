@@ -23,3 +23,8 @@ This database consists of three tables.
 
 •	Customer_nodes – This table is made up of 5 columns and 4500 rows.
 
+# Entity Relationship diagram
+
+![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/852e6ab1-d720-4f05-a6c2-16359132b328)
+
+
