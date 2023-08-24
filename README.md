@@ -3,7 +3,7 @@
 ![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/8f433710-2c86-4d38-bee8-ff0de7b0fade)
 
 # INTRODUCTION
-In this study, Danny thought that there should be some sort of intersection between these new age banks, cryptocurrency and the data world beacuse there is a new innovation in the financial industry called Neo-Banks: new aged digital only banks without physical branches,so he decides to launch a new initiative - Data Bank!
+In this case study, Danny thought that there should be some sort of intersection between these new age banks, cryptocurrency and the data world beacuse there is a new innovation in the financial industry called Neo-Banks: new aged digital only banks without physical branches,so he decides to launch a new initiative - Data Bank!
 
 Data Bank runs just like any other digital bank - but it isn’t only for banking activities, they also have the world’s most secure distributed data storage platform!
 
