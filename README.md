@@ -23,8 +23,49 @@ This database consists of three tables.
 
 •	Customer_nodes – This table is made up of 5 columns and 4500 rows.
 
+
 # Entity Relationship diagram
 
+
 ![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/852e6ab1-d720-4f05-a6c2-16359132b328)
+
+# CASE STUDY QUESTIONS AND INSIGHTS
+
+# A. Customer Nodes Exploration
+
+# 1. How many unique nodes are there on the Data Bank system?
+
+SELECT COUNT(DISTINCT node_id) AS uniquenodes
+FROM customer_nodes;
+
+![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/03aa9a98-359a-4da2-9622-0e71ed104cf0)
+
+# 2. What is the number of nodes per region?
+
+SELECT r.region_id, r.region_name, COUNT(n.node_id) AS nodes
+FROM customer_node n 
+JOIN regions r
+  ON n.region_id = r.region_id
+GROUP BY r.region_id, r.region_name
+ORDER BY r.region_id;
+
+![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/185eb2c9-818f-4a29-82bd-4171f4d6ac98)
+
+
+
+# 3. How many customers are allocated to each region?
+
+SELECT r.region_id,r.region_name,COUNT(DISTINCT n.customer_id) AS customers
+FROM customer_nodes n
+JOIN regions r
+  ON n.region_id = r.region_id
+GROUP BY r.region_id, r.region_name
+ORDER BY r.region_id;
+
+![image](https://github.com/UduakN/Data-Bank-DannyMa-SQL-Challenge-/assets/128192166/a6039cbc-0921-4954-858d-0d2fd1b6a36b)
+
+
+
+
 
 
